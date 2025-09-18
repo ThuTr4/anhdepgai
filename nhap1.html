@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Giới thiệu bản thân</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .cv-container {
+      max-width: 900px;
+      background: #fff;
+      margin: 30px auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+
+    /* Cột bên trái */
+    .left {
+      background: #4caf50;
+      color: #fff;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .avatar {
+      width: 160px;
+      height: 160px;
+      margin: 0 auto 20px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 4px solid #fff;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .name {
+      font-size: 26px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .position {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .contact {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      text-align: left;
+    }
+
+    .contact li {
+      margin: 10px 0;
+      font-size: 14px;
+    }
+
+    /* Cột bên phải */
+    .right {
+      padding: 30px;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .section-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #4caf50;
+      margin-bottom: 12px;
+      border-bottom: 2px solid #4caf50;
+      display: inline-block;
+      padding-bottom: 4px;
+    }
+
+    .section p, .section li {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .skills {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+
+    .skills li {
+      background: #f0f0f0;
+      padding: 6px 10px;
+      border-radius: 8px;
+      font-size: 13px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <!-- Cột trái -->
+    <div class="left">
+      <div class="avatar">
+        <img src="C:\Users\HP\Documents\thutra.jpg" alt="Ảnh cá nhân">
+      </div>
+      <div class="name">Ma Thị Thu Trà</div>
+      <div class="position">Sinh viên Kinh tế số</div>
+
+      <ul class="contact">
+        <li>📧 Email: thutra1472005@gmail.com</li>
+        <li>📱 SĐT: 0333 486 370</li>
+        <li>📍 Địa chỉ:Gia Lâm, Hà Nội, Việt Nam</li>
+      </ul>
+    </div>
+
+    <!-- Cột phải -->
+    <div class="right">
+      <div class="section">
+        <div class="section-title">Giới thiệu</div>
+        <p>Sinh viên năm 3, ngành Kinh tế số. Yêu thích phân tích dữ liệu, nghiên cứu xu hướng công nghệ và ứng dụng vào kinh tế hiện đại.</p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Học vấn</div>
+        <p>Trường Học viên nông nghiệp Việt NAm (2022 - nay)<br>Chuyên ngành: Kinh tế số</p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Kỹ năng</div>
+        <ul class="skills">
+          <li>Kỹ năng làm việc nhóm</li>
+          <li>Thông thạo Excel, Word, PowerPoint</li>
+          <li>Kỹ năng bán hàng</li>
+          <li> Kỹ năng giao tiếp </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Mục tiêu nghề nghiệp</div>
+        <p>Trở thành chuyên gia trong lĩnh vực Kinh tế số, ứng dụng phân tích dữ liệu và chuyển đổi số để hỗ trợ doanh nghiệp ra quyết định.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
